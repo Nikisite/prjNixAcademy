@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body{
+    background:url(https://static.vecteezy.com/system/resources/previews/010/008/086/original/background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat ;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+
+}
+
+.buttons{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    padding: 4px;
+    min-width: 350px;
+    border: 5px solid darkslategrey;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.value_field{
+    background: rgb(119, 118, 118);
+    grid-column:1/-1 ;
+    text-align:right;
+    height: 70px;
+    line-height: 70px;
+    font-size: 40px;
+    padding: 5px;
+}
+
+
+
+.item{
+    background: linear-gradient(#1eaa70, #105ba1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.num-0{
+    grid-column: 1/3;
+}
+
+.num{
+    color: white;
+    background: rgba(32, 41, 40, 0.63);
+}
+
+.equel{
+    background: linear-gradient( #c4aa00,#b66d3c);
+}
