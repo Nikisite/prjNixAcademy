@@ -157,14 +157,9 @@ function getResult() {
         case 'unary_minus':
             newCurrNum = -currResultNum;
             break;
-/*         case 'percent':
-            newCurrNum = currResultNum - (currResultNum * currNum) / 100;
-            break; */
     }
 
     if (newCurrNum == null || newCurrNum == undefined || isNaN(newCurrNum) || !isFinite(newCurrNum)) newCurrNum = 'Error!';
-
-    newCurrNum = newCurrNum.toFixed(2);
 
     return newCurrNum;
 }
